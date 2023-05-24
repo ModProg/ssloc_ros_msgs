@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ssloc_ros_msgs</name>
+  <version>0.1.0</version>
+  <description>messages for ssloc_ros</description>
+
+  <author email="dev@modprog.de">Roland Fredenhagen</author>
+  <maintainer email="dev@modprog.de">Roland Fredenhagen</maintainer>
+
+  <license>MIT</license>
+  <license>Apache-2.0</license>
+
+  <url type="repository">https://github.com/ssloc_ros_msgs</url>
+
+  <depend>std_msgs</depend>
+
+  <build_depend>message_generation</build_depend>
+
+  <exec_depend>message_runtime</exec_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>

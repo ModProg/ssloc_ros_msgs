@@ -8,10 +8,11 @@ find_package(catkin REQUIRED
 )
 
 add_message_files(DIRECTORY msg FILES
-  UnitSsl.msg
-  UnitSslArray.msg
-  UnitSst.msg
-  UnitSstArray.msg
+  Ssl.msg
+  SslArray.msg
+  Sst.msg
+  SstArray.msg
+  SssMapping.msg
 )
 
 generate_messages(
